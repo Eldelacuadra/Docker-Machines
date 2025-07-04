@@ -1,25 +1,17 @@
 # Docker-Machines
-Una sencilla herramienta para crear maquinas virtuales usando docker, imagen docker por defecto ubuntu:latest.
-configure la maquina virtual ha su gusto.
+Una sencilla herramienta en bash para crear maquinas virtuales para practicar hacking etico usando docker, imagen docker por defecto ubuntu:latest, Personalize la maquina virtual a su preferencia y ponga en practica sus habilidades.  
 
 # Uso.
-1. Ejecutar herramienta.
-2. Presione (Enter) para empezar a descargar la imagen de docker.
-3. En la nueva ventana de la terminal coloque la id de la imagen para ejecutar el contenedor.
-4. Personalizar maquina virtual (segunda terminal) !no cerrar la ventana!
-5. Coloque la id del contenedor para actualizar la imagen 'guardar cambios' en la (ventana de terminal principal). 
-7. Despues de aguardar los cambios usa el comando 'exit' para cerrar el script (segunda ventana)
-8. Introduce el nombre de la imagen docker para pasarle un dockerfile (servicios siempre en ejecucion).
-9. Elija el nombre para el fichero final .tar (convertir imagen docker en formato .tar)
-10.  
+ 1. Ejecutar herramienta.
+ 2. Presione (Enter) para empezar a descargar la imagen de docker.
+ 3. En la nueva ventana de la terminal coloque la id de la imagen para ejecutar el contenedor.
+ 4. Personalizar maquina virtual (segunda terminal) !no cerrar la ventana!
+ 5. Coloque la id del contenedor para actualizar la imagen 'guardar cambios' en la (ventana de terminal principal). 
+ 7. Despues de aguardar los cambios usa el comando 'exit' para cerrar el script (segunda ventana)
+ 8. Introduce el nombre de la imagen docker para pasarle un dockerfile (servicios siempre en ejecucion).
+ 9. Elija el nombre para el fichero final .tar (convertir imagen docker en formato .tar)
+10. Nombre de la maquina virtual .tar para asegurarse de que se a creado correctamente. (probar maquina virtual creada).    
  
-
-
-
-
-
-  
-
 # Instalacion De La Herramienta.
 Ejecuta una ventana de terminal y clone el repositorio [Docker-Machines](https://github.com/Eldelacuadra/Docker-Machines.git).
 
@@ -71,6 +63,8 @@ Ejecucion del contenedor. (script llamado contenedor.sh)
 # Tercera imagen.
 Probando la maquina virtual. (script llamado tar.sh)
 <p align="center"><img src="images/imagen-3.png"></p>
+
+
 
 
 
